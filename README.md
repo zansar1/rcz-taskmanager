@@ -1,16 +1,61 @@
-# rcz
+# Task List App
 
-A new Flutter project.
+This is a Flutter task list app with weather forecast functionality. It allows users to manage their tasks and view the weather forecast for the day. The app uses Firebase for authentication and cloud storage of tasks.
+Getting Started
 
-## Getting Started
+To use this app, follow these steps:
 
-This project is a starting point for a Flutter application.
+    Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+bash
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone https://github.com/your-username/your-repository.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Navigate to the project directory:
+
+bash
+
+cd your-repository
+
+    Install dependencies:
+
+arduino
+
+flutter pub get
+
+    Run the app:
+
+arduino
+
+flutter run
+
+Features
+Task Management
+
+    Add a new task with name, due date, and description.
+    Update existing tasks.
+    Delete tasks.
+
+Weather Forecast
+
+    View the current weather information for the selected location.
+    Weather data is fetched from the Weather API.
+
+Authentication
+
+    Users can sign in using Firebase authentication.
+
+Dependencies
+
+The app uses the following dependencies:
+
+    flutter/material.dart: Material Design components for Flutter.
+    firebase_auth: Firebase authentication for user login.
+    cloud_firestore: Firebase Cloud Firestore for database storage.
+    intl: For date formatting.
+    flutter_local_notifications: For displaying local notifications.
+    http: For making HTTP requests to the Weather API.
+
+Contact
+
+If you have any questions or suggestions, feel free to contact the developer at zaidalansari1999@gmail.com.
