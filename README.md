@@ -5,47 +5,39 @@ Getting Started
 
 To use this app, follow these steps:
 
-    Clone the repository:
-
-bash
+# Clone the repository:
 
 git clone https://github.com/your-username/your-repository.git
 
-    Navigate to the project directory:
+# Navigate to the project directory:
 
-bash
+    cd your-repository
 
-cd your-repository
+# Install dependencies:
 
-    Install dependencies:
+    flutter pub get
 
-arduino
+# Run the app
 
-flutter pub get
+    flutter run
 
-    Run the app:
-
-arduino
-
-flutter run
-
-Features
+# Features
 Task Management
 
     Add a new task with name, due date, and description.
     Update existing tasks.
     Delete tasks.
 
-Weather Forecast
+# Weather Forecast
 
     View the current weather information for the selected location.
     Weather data is fetched from the Weather API.
 
-Authentication
+# Authentication
 
     Users can sign in using Firebase authentication.
 
-Dependencies
+# Dependencies
 
 The app uses the following dependencies:
 
@@ -56,6 +48,6 @@ The app uses the following dependencies:
     flutter_local_notifications: For displaying local notifications.
     http: For making HTTP requests to the Weather API.
 
-Contact
+# Contact
 
 If you have any questions or suggestions, feel free to contact the developer at zaidalansari1999@gmail.com.
